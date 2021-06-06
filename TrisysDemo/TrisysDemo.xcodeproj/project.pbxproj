@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		976BDE3E266CA57F00E671ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE3D266CA57F00E671ED /* AppDelegate.swift */; };
+		976BDE40266CA57F00E671ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE3F266CA57F00E671ED /* SceneDelegate.swift */; };
+		976BDE42266CA57F00E671ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE41266CA57F00E671ED /* ViewController.swift */; };
+		976BDE45266CA57F00E671ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976BDE43266CA57F00E671ED /* Main.storyboard */; };
+		976BDE47266CA58100E671ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976BDE46266CA58100E671ED /* Assets.xcassets */; };
+		976BDE4A266CA58100E671ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976BDE48266CA58100E671ED /* LaunchScreen.storyboard */; };
+		976BDE55266CA58100E671ED /* TrisysDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE54266CA58100E671ED /* TrisysDemoTests.swift */; };
+		976BDE60266CA58100E671ED /* TrisysDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		976BDE51266CA58100E671ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976BDE32266CA57F00E671ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976BDE39266CA57F00E671ED;
+			remoteInfo = TrisysDemo;
+		};
+		976BDE5C266CA58100E671ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976BDE32266CA57F00E671ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976BDE39266CA57F00E671ED;
+			remoteInfo = TrisysDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		976BDE3A266CA57F00E671ED /* TrisysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrisysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		976BDE3D266CA57F00E671ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		976BDE3F266CA57F00E671ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		976BDE41266CA57F00E671ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		976BDE44266CA57F00E671ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		976BDE46266CA58100E671ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		976BDE49266CA58100E671ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		976BDE4B266CA58100E671ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976BDE50266CA58100E671ED /* TrisysDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisysDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		976BDE54266CA58100E671ED /* TrisysDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisysDemoTests.swift; sourceTree = "<group>"; };
+		976BDE56266CA58100E671ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976BDE5B266CA58100E671ED /* TrisysDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisysDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisysDemoUITests.swift; sourceTree = "<group>"; };
+		976BDE61266CA58100E671ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		976BDE37266CA57F00E671ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE4D266CA58100E671ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE58266CA58100E671ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		976BDE31266CA57F00E671ED = {
+			isa = PBXGroup;
+			children = (
+				976BDE3C266CA57F00E671ED /* TrisysDemo */,
+				976BDE53266CA58100E671ED /* TrisysDemoTests */,
+				976BDE5E266CA58100E671ED /* TrisysDemoUITests */,
+				976BDE3B266CA57F00E671ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		976BDE3B266CA57F00E671ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				976BDE3A266CA57F00E671ED /* TrisysDemo.app */,
+				976BDE50266CA58100E671ED /* TrisysDemoTests.xctest */,
+				976BDE5B266CA58100E671ED /* TrisysDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		976BDE3C266CA57F00E671ED /* TrisysDemo */ = {
+			isa = PBXGroup;
+			children = (
+				976BDE3D266CA57F00E671ED /* AppDelegate.swift */,
+				976BDE3F266CA57F00E671ED /* SceneDelegate.swift */,
+				976BDE41266CA57F00E671ED /* ViewController.swift */,
+				976BDE43266CA57F00E671ED /* Main.storyboard */,
+				976BDE46266CA58100E671ED /* Assets.xcassets */,
+				976BDE48266CA58100E671ED /* LaunchScreen.storyboard */,
+				976BDE4B266CA58100E671ED /* Info.plist */,
+			);
+			path = TrisysDemo;
+			sourceTree = "<group>";
+		};
+		976BDE53266CA58100E671ED /* TrisysDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				976BDE54266CA58100E671ED /* TrisysDemoTests.swift */,
+				976BDE56266CA58100E671ED /* Info.plist */,
+			);
+			path = TrisysDemoTests;
+			sourceTree = "<group>";
+		};
+		976BDE5E266CA58100E671ED /* TrisysDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */,
+				976BDE61266CA58100E671ED /* Info.plist */,
+			);
+			path = TrisysDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		976BDE39266CA57F00E671ED /* TrisysDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976BDE64266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemo" */;
+			buildPhases = (
+				976BDE36266CA57F00E671ED /* Sources */,
+				976BDE37266CA57F00E671ED /* Frameworks */,
+				976BDE38266CA57F00E671ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrisysDemo;
+			productName = TrisysDemo;
+			productReference = 976BDE3A266CA57F00E671ED /* TrisysDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		976BDE4F266CA58100E671ED /* TrisysDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976BDE67266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoTests" */;
+			buildPhases = (
+				976BDE4C266CA58100E671ED /* Sources */,
+				976BDE4D266CA58100E671ED /* Frameworks */,
+				976BDE4E266CA58100E671ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976BDE52266CA58100E671ED /* PBXTargetDependency */,
+			);
+			name = TrisysDemoTests;
+			productName = TrisysDemoTests;
+			productReference = 976BDE50266CA58100E671ED /* TrisysDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		976BDE5A266CA58100E671ED /* TrisysDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976BDE6A266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoUITests" */;
+			buildPhases = (
+				976BDE57266CA58100E671ED /* Sources */,
+				976BDE58266CA58100E671ED /* Frameworks */,
+				976BDE59266CA58100E671ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976BDE5D266CA58100E671ED /* PBXTargetDependency */,
+			);
+			name = TrisysDemoUITests;
+			productName = TrisysDemoUITests;
+			productReference = 976BDE5B266CA58100E671ED /* TrisysDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		976BDE32266CA57F00E671ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					976BDE39266CA57F00E671ED = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					976BDE4F266CA58100E671ED = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 976BDE39266CA57F00E671ED;
+					};
+					976BDE5A266CA58100E671ED = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 976BDE39266CA57F00E671ED;
+					};
+				};
+			};
+			buildConfigurationList = 976BDE35266CA57F00E671ED /* Build configuration list for PBXProject "TrisysDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 976BDE31266CA57F00E671ED;
+			productRefGroup = 976BDE3B266CA57F00E671ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				976BDE39266CA57F00E671ED /* TrisysDemo */,
+				976BDE4F266CA58100E671ED /* TrisysDemoTests */,
+				976BDE5A266CA58100E671ED /* TrisysDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		976BDE38266CA57F00E671ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976BDE4A266CA58100E671ED /* LaunchScreen.storyboard in Resources */,
+				976BDE47266CA58100E671ED /* Assets.xcassets in Resources */,
+				976BDE45266CA57F00E671ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE4E266CA58100E671ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE59266CA58100E671ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		976BDE36266CA57F00E671ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976BDE42266CA57F00E671ED /* ViewController.swift in Sources */,
+				976BDE3E266CA57F00E671ED /* AppDelegate.swift in Sources */,
+				976BDE40266CA57F00E671ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE4C266CA58100E671ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976BDE55266CA58100E671ED /* TrisysDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976BDE57266CA58100E671ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976BDE60266CA58100E671ED /* TrisysDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		976BDE52266CA58100E671ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976BDE39266CA57F00E671ED /* TrisysDemo */;
+			targetProxy = 976BDE51266CA58100E671ED /* PBXContainerItemProxy */;
+		};
+		976BDE5D266CA58100E671ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976BDE39266CA57F00E671ED /* TrisysDemo */;
+			targetProxy = 976BDE5C266CA58100E671ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		976BDE43266CA57F00E671ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				976BDE44266CA57F00E671ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		976BDE48266CA58100E671ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				976BDE49266CA58100E671ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		976BDE62266CA58100E671ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		976BDE63266CA58100E671ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		976BDE65266CA58100E671ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		976BDE66266CA58100E671ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		976BDE68266CA58100E671ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrisysDemo.app/TrisysDemo";
+			};
+			name = Debug;
+		};
+		976BDE69266CA58100E671ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrisysDemo.app/TrisysDemo";
+			};
+			name = Release;
+		};
+		976BDE6B266CA58100E671ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrisysDemo;
+			};
+			name = Debug;
+		};
+		976BDE6C266CA58100E671ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrisysDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrisysDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		976BDE35266CA57F00E671ED /* Build configuration list for PBXProject "TrisysDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976BDE62266CA58100E671ED /* Debug */,
+				976BDE63266CA58100E671ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976BDE64266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976BDE65266CA58100E671ED /* Debug */,
+				976BDE66266CA58100E671ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976BDE67266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976BDE68266CA58100E671ED /* Debug */,
+				976BDE69266CA58100E671ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976BDE6A266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976BDE6B266CA58100E671ED /* Debug */,
+				976BDE6C266CA58100E671ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 976BDE32266CA57F00E671ED /* Project object */;
+}
