@@ -53,8 +53,7 @@ class ContactTableViewCell: UITableViewCell {
         parentView.trailingAnchor.constraint(equalTo:contentView.trailingAnchor, constant:-8).isActive = true
         parentView.topAnchor.constraint(equalTo:contentView.topAnchor, constant:15).isActive = true
         parentView.bottomAnchor.constraint(equalTo:contentView.bottomAnchor, constant:-15).isActive = true
-
-        
+                
         profileImgView.leadingAnchor.constraint(equalTo:parentView.leadingAnchor, constant:10).isActive = true
         profileImgView.widthAnchor.constraint(equalToConstant:60).isActive = true
         profileImgView.heightAnchor.constraint(equalToConstant:60).isActive = true

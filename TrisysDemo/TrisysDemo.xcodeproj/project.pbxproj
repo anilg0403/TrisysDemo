@@ -25,7 +25,6 @@
 		976BDED4266CB19A00E671ED /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDED3266CB19A00E671ED /* ContactListViewController.swift */; };
 		976BDEDD266CB33D00E671ED /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */; };
 		976BDEE5266CB35700E671ED /* ConstantHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE4266CB35700E671ED /* ConstantHelper.swift */; };
-		976BDEEA266CB48100E671ED /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE9266CB48100E671ED /* ColorHelper.swift */; };
 		976BDEEF266CB49B00E671ED /* ThemeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEEE266CB49B00E671ED /* ThemeComponent.swift */; };
 		976BDEF4266CB8AF00E671ED /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEF3266CB8AF00E671ED /* ContactTableViewCell.swift */; };
 		DFE80A2ABA7CF112289768B0 /* Pods_TrisysDemo_TrisysDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */; };
@@ -80,7 +79,6 @@
 		976BDED3266CB19A00E671ED /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
 		976BDEE4266CB35700E671ED /* ConstantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantHelper.swift; sourceTree = "<group>"; };
-		976BDEE9266CB48100E671ED /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		976BDEEE266CB49B00E671ED /* ThemeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeComponent.swift; sourceTree = "<group>"; };
 		976BDEF3266CB8AF00E671ED /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,7 +281,6 @@
 			children = (
 				976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */,
 				976BDEE4266CB35700E671ED /* ConstantHelper.swift */,
-				976BDEE9266CB48100E671ED /* ColorHelper.swift */,
 				976BDEEE266CB49B00E671ED /* ThemeComponent.swift */,
 			);
 			path = CustomHelperClass;
@@ -537,7 +534,6 @@
 				976BDECC266CB07900E671ED /* ContactListRouter.swift in Sources */,
 				976BDEDD266CB33D00E671ED /* ExtensionHelpers.swift in Sources */,
 				976BDEEF266CB49B00E671ED /* ThemeComponent.swift in Sources */,
-				976BDEEA266CB48100E671ED /* ColorHelper.swift in Sources */,
 				976BDEE5266CB35700E671ED /* ConstantHelper.swift in Sources */,
 				976BDEB8266CAF2F00E671ED /* Attachment.swift in Sources */,
 				976BDE40266CA57F00E671ED /* SceneDelegate.swift in Sources */,
@@ -715,6 +711,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -734,6 +731,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = trysys.TrisysDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
