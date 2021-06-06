@@ -18,12 +18,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         //guard let _ = (scene as? UIWindowScene) else { return }
         
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let contactListVC = ContactListRouter.createContactListModule()
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [contactListVC]
 
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ContactListViewController()
-        self.window = window
-        window.makeKeyAndVisible()
+        /* Setting up the root view-controller as ui-navigation-controller */
+        guard let winScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: winScene)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         
     }
 

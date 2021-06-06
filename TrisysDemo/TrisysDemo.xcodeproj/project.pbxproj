@@ -27,6 +27,7 @@
 		976BDEE5266CB35700E671ED /* ConstantHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE4266CB35700E671ED /* ConstantHelper.swift */; };
 		976BDEEA266CB48100E671ED /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE9266CB48100E671ED /* ColorHelper.swift */; };
 		976BDEEF266CB49B00E671ED /* ThemeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEEE266CB49B00E671ED /* ThemeComponent.swift */; };
+		976BDEF4266CB8AF00E671ED /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEF3266CB8AF00E671ED /* ContactTableViewCell.swift */; };
 		DFE80A2ABA7CF112289768B0 /* Pods_TrisysDemo_TrisysDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		976BDEE4266CB35700E671ED /* ConstantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantHelper.swift; sourceTree = "<group>"; };
 		976BDEE9266CB48100E671ED /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		976BDEEE266CB49B00E671ED /* ThemeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeComponent.swift; sourceTree = "<group>"; };
+		976BDEF3266CB8AF00E671ED /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 		976BDEA9266CACF900E671ED /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				976BDEF3266CB8AF00E671ED /* ContactTableViewCell.swift */,
 			);
 			path = "Custom Cell";
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				976BDEBD266CB04700E671ED /* ContactListProtocol.swift in Sources */,
 				976BDEB3266CADD700E671ED /* ContactInfo.swift in Sources */,
 				976BDEC7266CB06900E671ED /* ContactListPresenter.swift in Sources */,
+				976BDEF4266CB8AF00E671ED /* ContactTableViewCell.swift in Sources */,
 				976BDEAB266CADC800E671ED /* ContactData.swift in Sources */,
 				976BDECC266CB07900E671ED /* ContactListRouter.swift in Sources */,
 				976BDEDD266CB33D00E671ED /* ExtensionHelpers.swift in Sources */,

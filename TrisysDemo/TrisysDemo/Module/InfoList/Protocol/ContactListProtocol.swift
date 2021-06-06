@@ -18,7 +18,7 @@ protocol ViewToPresenterContactListProtocol:class{
 
 //MARK:- Presenter -> View
 protocol PresenterToViewContactListProtocol:class {
-    func onContactListResponseSuccess(contactData:ContactData)
+    func onContactListResponseSuccess(responseContactList:[ContactInfo])
     func onContactListResponseFailed(error:String)
 }
 
@@ -35,6 +35,6 @@ protocol PresenterToInteractorContactListProtocol:class {
 
 //MARK:- Interactor -> Presenter
 protocol InteractorToPresenterContactListProtocol:class {
-    func contactListFetchSuccess(contactData:ContactData)
+    func contactListFetchSuccess(contactList:[ContactInfo])
     func contactListFetchFailed(error:String)
 }

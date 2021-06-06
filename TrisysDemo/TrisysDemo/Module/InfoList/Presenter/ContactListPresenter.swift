@@ -23,8 +23,8 @@ class ContactListPresenter:ViewToPresenterContactListProtocol{
 
 //MARK:- ContactListPresenter : Interactor -> Presenter
 extension ContactListPresenter : InteractorToPresenterContactListProtocol{
-    func contactListFetchSuccess(contactData: ContactData) {
-        view?.onContactListResponseSuccess(contactData:contactData)
+    func contactListFetchSuccess(contactList:[ContactInfo]) {
+        view?.onContactListResponseSuccess(responseContactList:contactList)
     }
     
     func contactListFetchFailed(error: String) {

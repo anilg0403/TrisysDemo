@@ -12,15 +12,6 @@ class ContactListInteractor:PresenterToInteractorContactListProtocol{
     
     var presenter: InteractorToPresenterContactListProtocol?
     
-   // func fetchAllContactList() {
-//        ContantAPIClient().getContacts { (data) in
-//            let jsonDecoder = JSONDecoder()
-//            let contactsData = try! jsonDecoder.decode(ContactData.self, from: data)
-//            self.presenter?.contactListFetchSuccess(contactData:contactsData)
-//        }
-//    }
-     
-    
     func fetchAllContactList() {
         
         let urlString = API_REPO_LIST
@@ -30,14 +21,14 @@ class ContactListInteractor:PresenterToInteractorContactListProtocol{
                 if let data = data {
                     do{
                         let userResponse = try JSONDecoder().decode([ContactInfo].self, from: data)
-                        print("userResponse : \(userResponse)")
-                        //self.presenter?.repoListFetchSuccess(repoObjModel:userResponse, currentPageNumber:currentPageNumber)
+                        //print("userResponse : \(userResponse)")
+                        self.presenter?.contactListFetchSuccess(contactList:userResponse)
                     }catch let err{
-                        //self.presenter?.repoListFetchFailed(error:err.localizedDescription)
+                        self.presenter?.contactListFetchFailed(error:err.localizedDescription)
                     }
                 }
             }else{
-                //self.presenter?.repoListFetchFailed(error:error?.localizedDescription ?? "Something went wrong")
+                self.presenter?.contactListFetchFailed(error:error?.localizedDescription ?? "Something went wrong")
             }
         }.resume()
         
