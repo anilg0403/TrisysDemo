@@ -15,7 +15,18 @@
 		976BDE4A266CA58100E671ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976BDE48266CA58100E671ED /* LaunchScreen.storyboard */; };
 		976BDE55266CA58100E671ED /* TrisysDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE54266CA58100E671ED /* TrisysDemoTests.swift */; };
 		976BDE60266CA58100E671ED /* TrisysDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */; };
-		976BDE8B266CAA2100E671ED /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE8A266CAA2100E671ED /* InfoListViewController.swift */; };
+		976BDEAB266CADC800E671ED /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEAA266CADC800E671ED /* ContactData.swift */; };
+		976BDEB3266CADD700E671ED /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEB2266CADD700E671ED /* ContactInfo.swift */; };
+		976BDEB8266CAF2F00E671ED /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEB7266CAF2F00E671ED /* Attachment.swift */; };
+		976BDEBD266CB04700E671ED /* ContactListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEBC266CB04700E671ED /* ContactListProtocol.swift */; };
+		976BDEC2266CB05900E671ED /* ContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEC1266CB05900E671ED /* ContactListInteractor.swift */; };
+		976BDEC7266CB06900E671ED /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEC6266CB06900E671ED /* ContactListPresenter.swift */; };
+		976BDECC266CB07900E671ED /* ContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDECB266CB07900E671ED /* ContactListRouter.swift */; };
+		976BDED4266CB19A00E671ED /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDED3266CB19A00E671ED /* ContactListViewController.swift */; };
+		976BDEDD266CB33D00E671ED /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */; };
+		976BDEE5266CB35700E671ED /* ConstantHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE4266CB35700E671ED /* ConstantHelper.swift */; };
+		976BDEEA266CB48100E671ED /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEE9266CB48100E671ED /* ColorHelper.swift */; };
+		976BDEEF266CB49B00E671ED /* ThemeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDEEE266CB49B00E671ED /* ThemeComponent.swift */; };
 		DFE80A2ABA7CF112289768B0 /* Pods_TrisysDemo_TrisysDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +69,18 @@
 		976BDE5B266CA58100E671ED /* TrisysDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisysDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisysDemoUITests.swift; sourceTree = "<group>"; };
 		976BDE61266CA58100E671ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		976BDE8A266CAA2100E671ED /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		976BDEAA266CADC800E671ED /* ContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
+		976BDEB2266CADD700E671ED /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		976BDEB7266CAF2F00E671ED /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		976BDEBC266CB04700E671ED /* ContactListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListProtocol.swift; sourceTree = "<group>"; };
+		976BDEC1266CB05900E671ED /* ContactListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListInteractor.swift; sourceTree = "<group>"; };
+		976BDEC6266CB06900E671ED /* ContactListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListPresenter.swift; sourceTree = "<group>"; };
+		976BDECB266CB07900E671ED /* ContactListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListRouter.swift; sourceTree = "<group>"; };
+		976BDED3266CB19A00E671ED /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
+		976BDEE4266CB35700E671ED /* ConstantHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantHelper.swift; sourceTree = "<group>"; };
+		976BDEE9266CB48100E671ED /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		976BDEEE266CB49B00E671ED /* ThemeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +159,7 @@
 		976BDE3C266CA57F00E671ED /* TrisysDemo */ = {
 			isa = PBXGroup;
 			children = (
+				976BDEDB266CB2F900E671ED /* CustomHelperClass */,
 				976BDE84266CA97100E671ED /* Module */,
 				976BDE76266CA7CD00E671ED /* AppDelegate */,
 				976BDE46266CA58100E671ED /* Assets.xcassets */,
@@ -184,7 +207,12 @@
 		976BDE88266CA97D00E671ED /* InfoList */ = {
 			isa = PBXGroup;
 			children = (
+				976BDEA5266CACD300E671ED /* Protocol */,
+				976BDEA4266CACCA00E671ED /* Entity */,
 				976BDE89266CA9E300E671ED /* View */,
+				976BDEA8266CACEF00E671ED /* Interactor */,
+				976BDEA7266CACE400E671ED /* Presenter */,
+				976BDEA6266CACDC00E671ED /* Router */,
 			);
 			path = InfoList;
 			sourceTree = "<group>";
@@ -192,9 +220,70 @@
 		976BDE89266CA9E300E671ED /* View */ = {
 			isa = PBXGroup;
 			children = (
-				976BDE8A266CAA2100E671ED /* InfoListViewController.swift */,
+				976BDEA9266CACF900E671ED /* Custom Cell */,
+				976BDED3266CB19A00E671ED /* ContactListViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		976BDEA4266CACCA00E671ED /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				976BDEAA266CADC800E671ED /* ContactData.swift */,
+				976BDEB2266CADD700E671ED /* ContactInfo.swift */,
+				976BDEB7266CAF2F00E671ED /* Attachment.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		976BDEA5266CACD300E671ED /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				976BDEBC266CB04700E671ED /* ContactListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		976BDEA6266CACDC00E671ED /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				976BDECB266CB07900E671ED /* ContactListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		976BDEA7266CACE400E671ED /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				976BDEC6266CB06900E671ED /* ContactListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		976BDEA8266CACEF00E671ED /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				976BDEC1266CB05900E671ED /* ContactListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		976BDEA9266CACF900E671ED /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		976BDEDB266CB2F900E671ED /* CustomHelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				976BDEDC266CB33D00E671ED /* ExtensionHelpers.swift */,
+				976BDEE4266CB35700E671ED /* ConstantHelper.swift */,
+				976BDEE9266CB48100E671ED /* ColorHelper.swift */,
+				976BDEEE266CB49B00E671ED /* ThemeComponent.swift */,
+			);
+			path = CustomHelperClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,7 +524,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				976BDE3E266CA57F00E671ED /* AppDelegate.swift in Sources */,
-				976BDE8B266CAA2100E671ED /* InfoListViewController.swift in Sources */,
+				976BDED4266CB19A00E671ED /* ContactListViewController.swift in Sources */,
+				976BDEC2266CB05900E671ED /* ContactListInteractor.swift in Sources */,
+				976BDEBD266CB04700E671ED /* ContactListProtocol.swift in Sources */,
+				976BDEB3266CADD700E671ED /* ContactInfo.swift in Sources */,
+				976BDEC7266CB06900E671ED /* ContactListPresenter.swift in Sources */,
+				976BDEAB266CADC800E671ED /* ContactData.swift in Sources */,
+				976BDECC266CB07900E671ED /* ContactListRouter.swift in Sources */,
+				976BDEDD266CB33D00E671ED /* ExtensionHelpers.swift in Sources */,
+				976BDEEF266CB49B00E671ED /* ThemeComponent.swift in Sources */,
+				976BDEEA266CB48100E671ED /* ColorHelper.swift in Sources */,
+				976BDEE5266CB35700E671ED /* ConstantHelper.swift in Sources */,
+				976BDEB8266CAF2F00E671ED /* Attachment.swift in Sources */,
 				976BDE40266CA57F00E671ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
