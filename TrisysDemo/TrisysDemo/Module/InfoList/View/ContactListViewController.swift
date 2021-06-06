@@ -33,7 +33,7 @@ class ContactListViewController: UIViewController {
     //MARK:- Setup UI
     func setUI() {
         
-        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(ContactTableViewCell.self, forCellReuseIdentifier: "ContactTableViewCell")
         tableView.separatorStyle = .singleLine
         tableView.backgroundColor = .clear
@@ -44,10 +44,15 @@ class ContactListViewController: UIViewController {
         tableView.tableFooterView = UIView()
         self.view.addSubview(tableView)
         
+        tableView.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
+        tableView.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
+        tableView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        
         //refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
         refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
         tableView.addSubview(refreshControl)
-        
+                
         /* Fetch Data */
         contactListPresenter?.startFetchingContactList()
         
@@ -58,6 +63,7 @@ class ContactListViewController: UIViewController {
         /* Fetch Data */
         contactListPresenter?.startFetchingContactList()
     }
+    
 }
 
 
