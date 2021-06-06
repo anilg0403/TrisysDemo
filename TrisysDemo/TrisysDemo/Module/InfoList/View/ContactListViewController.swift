@@ -19,7 +19,8 @@ class ContactListViewController: UIViewController {
     
     var contactListPresenter:ViewToPresenterContactListProtocol?
     var contactsList : [ContactInfo] = []
-
+    
+    var refreshControl = UIRefreshControl()
 
     //MARK:- View Life Cycle
     override func viewDidLoad() {
@@ -34,21 +35,28 @@ class ContactListViewController: UIViewController {
         
         tableView = UITableView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
         tableView.register(ContactTableViewCell.self, forCellReuseIdentifier: "ContactTableViewCell")
-
         tableView.separatorStyle = .singleLine
-        tableView.tableHeaderView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 10, height:1))
-        tableView.tableFooterView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 10, height: 1))
-        tableView.separatorColor = .clear
         tableView.backgroundColor = .clear
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = UITableView.automaticDimension
         tableView.tableFooterView = UIView()
         self.view.addSubview(tableView)
         
-        //self.addFetchingView()
+        //refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
+        tableView.addSubview(refreshControl)
         
+        /* Fetch Data */
         contactListPresenter?.startFetchingContactList()
         
+    }
+    
+    //MARK:- Helper MEthods
+    @objc func refresh(_ sender: AnyObject) {
+        /* Fetch Data */
+        contactListPresenter?.startFetchingContactList()
     }
 }
 
@@ -57,22 +65,25 @@ class ContactListViewController: UIViewController {
 extension ContactListViewController : PresenterToViewContactListProtocol{
     
     func onContactListResponseSuccess(responseContactList:[ContactInfo]) {
-        //self.removeFetchingView()
         self.contactsList = []
         if responseContactList.count > 0 {
             self.contactsList = responseContactList
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
+        }
+        
+        DispatchQueue.main.async {
+            self.refreshControl.endRefreshing()
+            self.tableView.reloadData()
         }
     }
     
     func onContactListResponseFailed(error: String) {
+        
         // Need to handle. Show Custom UI to notify No Data
-        //self.removeFetchingView()
+        /* ... */
         
         self.contactsList = []
         DispatchQueue.main.async {
+            self.refreshControl.endRefreshing()
             self.tableView.reloadData()
         }
     }
@@ -87,30 +98,24 @@ extension ContactListViewController : UITableViewDataSource , UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 56.0
+        return UITableView.automaticDimension //56.0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-//        return UITableViewCell()
-        
+                
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContactTableViewCell", for: indexPath) as! ContactTableViewCell
-                        
-//        if contactsList[indexPath.row].imageUrl != "" {
-//            cell.contactImageView.kf.setImage(with: URL(string: contactsList[indexPath.row].imageUrl ?? ""))
-//        } else {
-//            cell.contactImageView.image = UIImage(named:"") //Add Defualt image
-//        }
-//        cell.contactImageView.layer.masksToBounds = true
-//        cell.contactImageView.layer.cornerRadius = 20
-
-        cell.courseName.text = contactsList[indexPath.row].title ?? ""
+        cell.selectionStyle = .none
         
-//        if contactsList[indexPath.row].tagHandle != nil && contactsList[indexPath.row].tagHandle != "" {
-//            cell.contactTagLabel.text = contactsList[indexPath.row].tagHandle
-//        } else {
-//            cell.contactTagLabel.text = ""
-//        }
+        /* Here : Kingfisher mamange async loading of image. In live proj we can developed our own logic for image loading */
+        if contactsList[indexPath.row].profileImage != "" {
+            cell.profileImgView.kf.setImage(with: URL(string: contactsList[indexPath.row].profileImage ?? ""))
+        } else {
+            cell.profileImgView.image = UIImage(named:"") //Add Defualt image
+        }
+
+        cell.usernameLbl.text = contactsList[indexPath.row].userName ?? ""
+        cell.titleLbl.text = contactsList[indexPath.row].title ?? ""
+        cell.descriptionLbl.text = contactsList[indexPath.row].description ?? ""
         
         return cell
     }

@@ -21,7 +21,6 @@ class ContactListInteractor:PresenterToInteractorContactListProtocol{
                 if let data = data {
                     do{
                         let userResponse = try JSONDecoder().decode([ContactInfo].self, from: data)
-                        //print("userResponse : \(userResponse)")
                         self.presenter?.contactListFetchSuccess(contactList:userResponse)
                     }catch let err{
                         self.presenter?.contactListFetchFailed(error:err.localizedDescription)
