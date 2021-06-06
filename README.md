@@ -1,2 +1,7 @@
 # TrisysDemo
- Swift Demo to fetch data and load Images
+
+Pattern : VIPER
+
+Swift Demo to fetch data from Rest APi and load in Tableview. It supports both portrait and landscape orientation.
+ 
+ 
