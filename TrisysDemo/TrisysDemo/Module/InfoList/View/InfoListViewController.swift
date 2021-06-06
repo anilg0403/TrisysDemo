@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoListViewController.swift
 //  TrisysDemo
 //
 //  Created by Anil Gupta on 06/06/21.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InfoListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = .white
+
     }
 
-
 }
-
