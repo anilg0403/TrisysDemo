@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B16A33602EAC67758413C2B /* Pods_TrisysDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2089E04A3527499C1894A86D /* Pods_TrisysDemo.framework */; };
+		5A33E077A225828922701FE2 /* Pods_TrisysDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3931D9BDB565707ACD32C1F9 /* Pods_TrisysDemoTests.framework */; };
 		976BDE3E266CA57F00E671ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE3D266CA57F00E671ED /* AppDelegate.swift */; };
 		976BDE40266CA57F00E671ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE3F266CA57F00E671ED /* SceneDelegate.swift */; };
 		976BDE42266CA57F00E671ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE41266CA57F00E671ED /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		976BDE4A266CA58100E671ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976BDE48266CA58100E671ED /* LaunchScreen.storyboard */; };
 		976BDE55266CA58100E671ED /* TrisysDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE54266CA58100E671ED /* TrisysDemoTests.swift */; };
 		976BDE60266CA58100E671ED /* TrisysDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BDE5F266CA58100E671ED /* TrisysDemoUITests.swift */; };
+		DFE80A2ABA7CF112289768B0 /* Pods_TrisysDemo_TrisysDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08854D02B76F3D2389D769A7 /* Pods-TrisysDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemo.debug.xcconfig"; path = "Target Support Files/Pods-TrisysDemo/Pods-TrisysDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		106B49CCB5C300A4B68935ED /* Pods-TrisysDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemo.release.xcconfig"; path = "Target Support Files/Pods-TrisysDemo/Pods-TrisysDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2089E04A3527499C1894A86D /* Pods_TrisysDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrisysDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36906C44DB173B22793CF36C /* Pods-TrisysDemo-TrisysDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemo-TrisysDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrisysDemo-TrisysDemoUITests/Pods-TrisysDemo-TrisysDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrisysDemo_TrisysDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3931D9BDB565707ACD32C1F9 /* Pods_TrisysDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrisysDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C973BECB2A291754576DF6F /* Pods-TrisysDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TrisysDemoTests/Pods-TrisysDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		50D7B89023A2B84BD32C8FF5 /* Pods-TrisysDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TrisysDemoTests/Pods-TrisysDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D882D62F36E9682E9261913 /* Pods-TrisysDemo-TrisysDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrisysDemo-TrisysDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TrisysDemo-TrisysDemoUITests/Pods-TrisysDemo-TrisysDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		976BDE3A266CA57F00E671ED /* TrisysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrisysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		976BDE3D266CA57F00E671ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		976BDE3F266CA57F00E671ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B16A33602EAC67758413C2B /* Pods_TrisysDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A33E077A225828922701FE2 /* Pods_TrisysDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE80A2ABA7CF112289768B0 /* Pods_TrisysDemo_TrisysDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1A4767EF5B4F1660D8B3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08854D02B76F3D2389D769A7 /* Pods-TrisysDemo.debug.xcconfig */,
+				106B49CCB5C300A4B68935ED /* Pods-TrisysDemo.release.xcconfig */,
+				36906C44DB173B22793CF36C /* Pods-TrisysDemo-TrisysDemoUITests.debug.xcconfig */,
+				7D882D62F36E9682E9261913 /* Pods-TrisysDemo-TrisysDemoUITests.release.xcconfig */,
+				50D7B89023A2B84BD32C8FF5 /* Pods-TrisysDemoTests.debug.xcconfig */,
+				3C973BECB2A291754576DF6F /* Pods-TrisysDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2BCA8D7562178DA559AA9FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2089E04A3527499C1894A86D /* Pods_TrisysDemo.framework */,
+				378A5FAD95EFCC0EF4D1500F /* Pods_TrisysDemo_TrisysDemoUITests.framework */,
+				3931D9BDB565707ACD32C1F9 /* Pods_TrisysDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		976BDE31266CA57F00E671ED = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				976BDE53266CA58100E671ED /* TrisysDemoTests */,
 				976BDE5E266CA58100E671ED /* TrisysDemoUITests */,
 				976BDE3B266CA57F00E671ED /* Products */,
+				1F1A4767EF5B4F1660D8B3F7 /* Pods */,
+				2BCA8D7562178DA559AA9FE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +139,7 @@
 		976BDE3C266CA57F00E671ED /* TrisysDemo */ = {
 			isa = PBXGroup;
 			children = (
-				976BDE3D266CA57F00E671ED /* AppDelegate.swift */,
-				976BDE3F266CA57F00E671ED /* SceneDelegate.swift */,
+				976BDE76266CA7CD00E671ED /* AppDelegate */,
 				976BDE41266CA57F00E671ED /* ViewController.swift */,
 				976BDE43266CA57F00E671ED /* Main.storyboard */,
 				976BDE46266CA58100E671ED /* Assets.xcassets */,
@@ -128,6 +167,15 @@
 			path = TrisysDemoUITests;
 			sourceTree = "<group>";
 		};
+		976BDE76266CA7CD00E671ED /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				976BDE3D266CA57F00E671ED /* AppDelegate.swift */,
+				976BDE3F266CA57F00E671ED /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 976BDE64266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemo" */;
 			buildPhases = (
+				7690AE2795AFB09D9F1B9686 /* [CP] Check Pods Manifest.lock */,
 				976BDE36266CA57F00E671ED /* Sources */,
 				976BDE37266CA57F00E671ED /* Frameworks */,
 				976BDE38266CA57F00E671ED /* Resources */,
+				194FA78F2B21B905D9B3661E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 976BDE67266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoTests" */;
 			buildPhases = (
+				72D751BDC8F88B7BC1688B59 /* [CP] Check Pods Manifest.lock */,
 				976BDE4C266CA58100E671ED /* Sources */,
 				976BDE4D266CA58100E671ED /* Frameworks */,
 				976BDE4E266CA58100E671ED /* Resources */,
@@ -170,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 976BDE6A266CA58100E671ED /* Build configuration list for PBXNativeTarget "TrisysDemoUITests" */;
 			buildPhases = (
+				DBDFBE82B7F3BF5DB0739CBB /* [CP] Check Pods Manifest.lock */,
 				976BDE57266CA58100E671ED /* Sources */,
 				976BDE58266CA58100E671ED /* Frameworks */,
 				976BDE59266CA58100E671ED /* Resources */,
+				C71E0D0A0E899E802529FC65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		194FA78F2B21B905D9B3661E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo/Pods-TrisysDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo/Pods-TrisysDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo/Pods-TrisysDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D751BDC8F88B7BC1688B59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrisysDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7690AE2795AFB09D9F1B9686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrisysDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71E0D0A0E899E802529FC65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo-TrisysDemoUITests/Pods-TrisysDemo-TrisysDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo-TrisysDemoUITests/Pods-TrisysDemo-TrisysDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrisysDemo-TrisysDemoUITests/Pods-TrisysDemo-TrisysDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDFBE82B7F3BF5DB0739CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrisysDemo-TrisysDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		976BDE36266CA57F00E671ED /* Sources */ = {
@@ -433,6 +589,7 @@
 		};
 		976BDE65266CA58100E671ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08854D02B76F3D2389D769A7 /* Pods-TrisysDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +608,7 @@
 		};
 		976BDE66266CA58100E671ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106B49CCB5C300A4B68935ED /* Pods-TrisysDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +627,7 @@
 		};
 		976BDE68266CA58100E671ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D7B89023A2B84BD32C8FF5 /* Pods-TrisysDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +649,7 @@
 		};
 		976BDE69266CA58100E671ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C973BECB2A291754576DF6F /* Pods-TrisysDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +671,7 @@
 		};
 		976BDE6B266CA58100E671ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36906C44DB173B22793CF36C /* Pods-TrisysDemo-TrisysDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +691,7 @@
 		};
 		976BDE6C266CA58100E671ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D882D62F36E9682E9261913 /* Pods-TrisysDemo-TrisysDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

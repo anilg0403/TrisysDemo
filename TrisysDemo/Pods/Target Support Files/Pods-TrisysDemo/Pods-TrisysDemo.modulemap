@@ -1,0 +1,6 @@
+framework module Pods_TrisysDemo {
+  umbrella header "Pods-TrisysDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
